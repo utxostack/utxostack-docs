@@ -1,5 +1,7 @@
 export default {
-  index: "개요",
-  prerequisites: "필수 조건",
-  "fund-your-wallet-and-make-payments": "지갑 충전 및 결제하기",
-};
+  "overview": "개요",
+  "key-concepts": "주요 개념",
+  "prerequisites": "전제 조건",
+  "open-and-fund-your-channel": "채널 개설 및 자금 충전",
+  "make-payments": "결제하기",
+}; 

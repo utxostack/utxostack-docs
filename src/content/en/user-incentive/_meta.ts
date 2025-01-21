@@ -1,5 +1,7 @@
 export default {
-  overview: "Overview",
-  prerequisites: "Prerequisites",
-  "fund-your-wallet-and-make-payments": "Fund Your Wallet and Make Payments",
+  "overview": "Overview",
+  "key-concepts": "Key Concepts",
+  "prerequisites": "Prerequisites",
+  "open-and-fund-your-channel": "Open and Fund Your Channel",
+  "make-payments": "Make Payments",
 };

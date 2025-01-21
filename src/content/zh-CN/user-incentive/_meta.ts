@@ -1,5 +1,7 @@
 export default {
-  index: "概述",
-  prerequisites: "前置条件",
-  "fund-your-wallet-and-make-payments": "充值钱包并付款",
-};
+  "overview": "概览",
+  "key-concepts": "核心概念",
+  "prerequisites": "准备闪电钱包",
+  "open-and-fund-your-channel": "钱包注资",
+  "make-payments": "钱包支付",
+}; 
