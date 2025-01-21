@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prettier": "prettier -w ."
+    "prettier": "prettier -w .",
+    "postbuild": "pagefind --site .next/server/app --output-path public/_pagefind",
+    "predev": "pnpm prebuild"
   },
   "dependencies": {
     "@svgr/webpack": "^8.1.0",
@@ -15,6 +17,7 @@
     "next": "15.1.4",
     "nextra": "^4.0.0",
     "nextra-theme-docs": "^4.0.0",
+    "pagefind": "^1.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },

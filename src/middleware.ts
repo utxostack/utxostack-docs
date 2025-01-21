@@ -4,7 +4,7 @@ import i18nConfig from "@/config/i18n";
 export const config = {
   // Matcher ignoring `/_next/` and `/api/`
   matcher: [
-    "/((?!api|_next/static|_next/image|favicon.ico|icon.svg|apple-icon.png|video|image|manifest).*)",
+    "/((?!api|_pagefind|_next/static|_next/image|favicon.ico|icon.svg|apple-icon.png|video|image|manifest).*)",
   ],
 };
 
