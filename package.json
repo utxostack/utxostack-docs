@@ -9,6 +9,7 @@
     "lint": "next lint",
     "prettier": "prettier -w .",
     "postbuild": "pagefind --site .next/server/app --output-path public/_pagefind",
+    "prebuild": "echo \"prebuild\"",
     "predev": "pnpm prebuild"
   },
   "dependencies": {

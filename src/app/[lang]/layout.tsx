@@ -69,6 +69,7 @@ export default async function RootLayout(
           navbar={navbar}
           pageMap={await getPageMap(`/${lang}`).catch(() => notFound())}
           footer={footer}
+          docsRepositoryBase="https://github.com/utxostack/utxostack-docs/tree/main"
           i18n={[
             { locale: "en", name: "English" },
             { locale: "zh-TW", name: "繁体中文" },
